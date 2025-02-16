@@ -1,0 +1,70 @@
+/* Apply styles to the whole page */
+
+/* Form container */
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    text-align: center;
+   
+}
+/* Form title */
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Labels */
+label {
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #E74C3C;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #C0392B;
+}
+
+/* Back Button */
+.back-button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.back-button:hover {
+    background: #555;
+}

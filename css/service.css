@@ -1,0 +1,158 @@
+
+
+
+body {
+    background-color: #e0d0d0; /* Set full black background */
+    color: rgb(10, 10, 10); /* Change text color to white for readability */
+}
+
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #07080a;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #E74C3C;
+}
+
+/* Services Section */
+.services {
+    padding: 100px 50px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.services h2 {
+    text-align:center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 50px;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.service-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #07080a;
+    color: white;
+    margin-top: 50px;
+}
+
+
+/* Back Button */
+.back-button {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.back-button:hover {
+    background: #555;
+}
